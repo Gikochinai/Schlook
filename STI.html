@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <title>Schlook</title>
+  </head>
+  <body onload="clockstart()">
+    <header>
+    <div class="Menu-bar">
+        <ul>
+          <li ><i class="fas fa-home"></i><a href="index.html">Home</a></li>
+          <li class="Active" id="sch">
+            <i class="fas fa-school"></i>
+            Schools
+            <div class="sub-menu">
+              <ul>
+                <li><i class="fas fa-caret-down"></i><a href="STI.html">STI College - Las Pinas</a></li>
+                <li><i class="fas fa-caret-down"></i><a href="perps.html">University of Perpetual Help System DALTA, Las Piñas Campus</a></li>
+              </ul>
+            </div>
+          </li>
+          <li><i class="fas fa-user-alt"></i><a href="about.html">About us</a></li>
+          <li><i class="fas fa-poll"></i><a href="survey.html">Survey</a></li>
+        </ul>
+    </div>
+    <div class="logo">
+      <a href="index.html"><img src="logo.png" alt=""></a>
+    </div>
+    </header>
+
+
+    <div class="drop-down" id="btn-drop-down">
+      <img src="drop-down-arrow.png" alt="">
+      <h4>school image</h4>
+    </div>
+
+    <div class="image-1" id="container">
+      <img src="Picture1.jpg" alt="">
+    </div>
+
+    <div  class="clock-time">
+        <p>You've visited this page at this time: </p>
+        <p id="clock"> </p>
+    </div>
+
+    <div class="heading-1">
+      <h1>STI COLLEGE LAS PIñAS</h1>
+      <br>
+         <p>The STI College Las Piñas campus is located at Alabang-Zapote Road, Pamplona 3. This school offers different academic strands and TVL strand for senior high school.
+            Also, it offers college degree programs. As part of the STI System, STI College Las Piñas is duly recognized by the Commission on Higher Education (CHED) and the Department of Education (DepEd).
+            This school takes pride in their staff who are able to provide personalized assistance, fast, and efficient admissions procedures on-campus and even online.
+            They give students real life education through hands-on learning and on-the-job trainings both here and abroad. And with their unique Enrollment to Employment (E2E) System, STI graduates are sure to be job ready and life ready.</p>
+    </div>
+
+
+
+
+<div class="section-1">
+<p>These are some of the facilities offered by STI College Las Piñas: </p>
+    <div class="pictures">
+
+      <div class="pic">
+        <h3>Gymnasium</h3>
+        <p>Play and boost your athletic skills at school gymnasium.</p>
+        <button type="button" name="button" id="show">show</button>
+        <div id="gym">
+          <img src="Picture2.jpg" alt="" >
+        </div>
+      </div>
+      <div class="pic">
+        <h3>Computer Laboratory</h3>
+        <p>Navigate the digital world with ease in computer laboratory.</p>
+        <button type="button" name="button" id="show1">show</button>
+        <div id="computer">
+          <img src="Picture3.jpg" alt="">
+        </div>
+      </div>
+      <div class="pic">
+        <h3>Classroom</h3>
+        <p>Engage challenging lessons and learn in state-of-the-art classroom.</p>
+        <button type="button" name="button" id="show2">show</button>
+        <div id="room">
+            <img src="Picture4.jpg" alt="">
+        </div>
+      </div>
+      <div class="pic">
+        <h3>Library</h3>
+        <p>Study and read your favorite books at spacious school library.</p>
+        <button type="button" name="button" id="show3">show</button>
+        <div id="books">
+          <img src="Picture5.jpg" alt="">
+        </div>
+      </div>
+      <div class="pic">
+        <h3>Kitchen Laboratory</h3>
+        <p>Learn to become a chef and create edible works of art here at kitchen laboratory</p>
+        <button type="button" name="button" id="show4">show</button>
+        <div id="kekchen">
+            <img src="Picture6.jpg" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="next-page">
+    <a href="perps.html">University of Perpetual Help System DALTA, Las Piñas Campus</a>
+  </div>
+
+
+<footer>
+  <p>You also may visit their offcial website at <a href="https://www.sti.edu/campuses-details.asp?campus_id=LPS" target="_blank">
+    https://www.sti.edu/campuses-details.asp?campus_id=LPS</a> and Facebook page at <a href="https://www.facebook.com/laspinas.sti.edu" target="_blank">https://www.facebook.com/laspinas.sti.edu</a></p>
+  <p>(Disclaimer: The content contained in Schlook website is provided only for educational and informational purposes only. The researchers attempts to ensure that content is accurate and obtained from reliable sources.
+     All the images inside this website belong to their respective owner and the researchers or this website does not claim any right over them.)</p>
+</footer>
+<script src="script.js" charset="utf-8"></script>
+<script src="clock.js" charset="utf-8"></script>
+  </body>
+</html>
