@@ -274,7 +274,7 @@ body{
 }
  .pictures .pic{
    background-color: #00FA9A;
-   margin: 5px;
+   margin: 10px;
    margin-bottom: 50px;
    width: 800px;
    padding: 50px;
@@ -282,6 +282,11 @@ body{
    position: relative;
    border-style: double;
    border-color: black;
+   transition: 1.2s;
+}
+
+.pictures .pic:hover{
+  transform: scale(1.1);
 }
 
 
