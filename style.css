@@ -9,7 +9,7 @@ body{
   background: url("backgroundimg.png") fixed center;
   background-repeat: no-repeat;
   background-size: cover;
-  font-family: 'Dancing Script', cursive;
+  font-family: sans-serif;
   animation: loadIN 2.5s ease;
   height: 100vh;
 }
